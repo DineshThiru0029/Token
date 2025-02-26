@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token - Optimize Patient Check-In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f0ebd4;
+            padding: 10px 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+        .nav {
+            font-size: 18px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            background: #eaf2f8;
+        }
+        .hero img {
+            width: 50%;
+        }
+        .hero-content {
+            max-width: 500px;
+            margin-left: 30px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background: #d9534f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background: #b52b27;
+        }
+        .features {
+            text-align: center;
+            padding: 50px;
+            background: #f9f9f9;
+        }
+        .features h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .feature-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="image.png" alt="Token Logo">
+            <h2>Token</h2>
+        </div>
+        <div class="nav">Home</div>
+    </div>
+
+    <div class="hero">
+        <img src="your-background-image.jpg" alt="Technology">
+        <div class="hero-content">
+            <h1>Optimize Patient Check-In Today</h1>
+            <p>Streamline your outpatient check-in with comprehensive AI solutions, enhancing efficiency and patient experience across Hyderabad’s healthcare facilities.</p>
+            <a href="#" class="cta-button">Start Registration Now</a>
+        </div>
+    </div>
+
+    <div class="features">
+        <h2>Optimize Outpatient Intake Process</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <div class="feature-icon">👥</div>
+                <h3>Seamless Patient Onboarding</h3>
+                <p>Effortlessly register new patients with our intuitive AI-driven platform for streamlined admissions.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📄</div>
+                <h3>Automated Data Management</h3>
+                <p>Manage patient information efficiently with automated data handling and secure storage solutions.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📅</div>
+                <h3>Advanced Appointment Scheduling</h3>
+                <p>Optimize time management with our AI-powered scheduling system, ensuring minimal wait times.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📊</div>
+                <h3>Real-Time Analytics Reporting</h3>
+                <p>Access insightful analytics instantly to improve patient care and operational efficiency.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
